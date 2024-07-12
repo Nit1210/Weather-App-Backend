@@ -2,7 +2,5 @@
   command = "npm install && npm run start"
   publish = "."
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[functions]
+node_bundler = "esbuild"
